@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
+ <meta charset="UTF-8">
 	<title>TZForm</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -9,48 +9,58 @@
 	<header class="header">
 		<h1 class="h1">Обратная связь</h1>
 	</header>
-	<section>
-		<form action="#" method="post">
-			<div>
-				<label for="">Имя:</label>
-				<input type="text">
+ 
+ <section>
+
+		<form class="form" action="#" method="post">
+
+			<div class="margin">
+				<label class="label" for="first__name">Имя:</label>
+				<input class="input" id="first__name" type="text" placeholder="Введите имя" required>
 			</div>
-			<div>
-				<label for="">Фамилия:</label>
-				<input type="text">
+
+			<div class="margin">
+				<label class="label" for="last__name">Фамилия:</label>
+				<input class="input" id="last__name" type="text" placeholder="Введите фамилию" required>
 			</div>
-			<div>
-				<p>Пол</p>
-				<label for="">
-					<input type="radio">
+
+			<div class="margin">
+				<label class="label" for="" name="gender">Пол</label>
+					<input type="radio" name="gender" checked>
 					<span>Муж.</span>
-				</label>
-				<label for="">
-					<input type="radio">
+				
+				
+					<input type="radio" name="gender">
 					<span>Жен.</span>
-				</label>
+				
 			</div>
-			<div>
-				<label for="">Тема вопроса:</label>
-				<select name="" id=""> 
-					<option value="">Выберите тему</option>
+
+			<div class="margin">
+				<label class="label" for="">Тема вопроса:</label>
+				<select class="select" name=""> 
+					<option value="" disabled >Выберите тему</option>
 					<option value="">Полтитка</option>
-					<option value="">Юмор</option>
+					<option value="" selected>Юмор</option>
 					<option value="">Бизнес</option>
 					<option value="">Семья</option>
 					<option value="">Отдых</option>
 
 				</select>
 			</div>
-			<div>
-				<h2>Текст сообщения:</h2>
-				<textarea name="" id="" cols="30" rows="10"></textarea>
+
+			<div class="message">
+				<h2 class="h2">Текст сообщения:</h2>
+				<textarea class="sms" name="sms"></textarea>
 			</div>
-			<div>
-				<button type="submit">отправить</button>
+
+			<div class="margin button__align">
+				<button class="button" type="submit">отправить</button>
 			</div>
+
 		</form>
-	</section>
+
+ </section>
+
 	<footer class="footer">
 		<h5 class="h5">Указывайте только подлинные данные</h5>
 	</footer>
