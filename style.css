@@ -1,33 +1,100 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+﻿* {
+	margin: 0;	
+padding: 0;
+box-sizing: border-box;
 }
-.header {
-	display: flex;
-	width: 100%;
-	height: 100px;
-	background: #000;
-
+body {
+background: #E2E0DF;
 }
-.h1 {
-	display: inline-block;
+.header {	
+display: flex;	
+width: 100%;	
+height: 100px;	
+background: #000; 
+}
+.h1 {	
+display: inline-block;
 	margin: auto;
-	color: #fff;
-	font-size: 2rem;
-}
-
-
-.footer {
-		display: flex;
-	width: 100%;
+	color: #fff;	
+font-size: ;
+} 
+.footer {	
+	display: flex;	
+width: 100%;
 	height: 50px;
-	background: #2a4da8;
+	background: #4687BE;
 }
-.h5 {
-	display: inline-block;
-	margin: auto;
-	color: #fff;
-	font-size: 1rem;
-	text-decoration: underline;
+.h5 {	
+display: inline-block;	
+margin: auto;	color: #fff;	
+font-size: 1rem;	
+text-decoration: underline;
 }
+section {
+width: 100%;
+background: #D6DFE6;
+}
+
+.form {
+
+width: 100%;
+min-width: 600px;
+border: 2px solid;
+}
+
+
+.margin {
+margin: 3px 0;
+font-size: 1.2rem;
+}
+.label {
+width: 300px;
+display: inline-block;
+}
+.input {
+width: 350px;
+height: 35px;
+border: 3px solid;
+border-radius: 5px;
+}
+span {
+font-size: 1.2rem;
+font-family: serif;
+}
+.message {
+
+
+text-align: center;
+
+}
+.h2 {
+padding: 20px 0;
+}
+.sms {
+border: 3px solid #AB381C;
+width: 600px;
+height: 500px;
+}
+/*.sms: {
+border: 3px solid #AB381C;
+}*/
+.select {
+width: 200px;
+}
+.button__align {
+text-align: center;
+
+}
+.button {
+width: 250px;
+height: 70px;
+background: #AB381C;
+color: #fff;
+border-radius: 10px;
+
+}
+
+
+
+
+
